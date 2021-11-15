@@ -136,8 +136,8 @@ createHeader();
 createTable();
 fillTable();
 generateTextArea();
-createFooter();
 buildSentence();
+createFooter();
 
 
 
