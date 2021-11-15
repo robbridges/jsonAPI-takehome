@@ -123,7 +123,7 @@ const buildSentence = async (userId = 1) => {
     string += `title: ${post.title}
     
     ${post.body}
-
+    ___________________________________________________________________________
     `;
     
     
