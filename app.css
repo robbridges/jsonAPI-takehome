@@ -75,6 +75,7 @@ body {
   
 }
 .user-button {
+  color: #fff;
   background-color: rgba(165, 9, 238, 0.918);
 }
 .user-button:hover {
