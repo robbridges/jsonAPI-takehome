@@ -7,7 +7,9 @@ body {
   background-image: linear-gradient(to right bottom, rgba(165, 9, 238, 0.918), #28b485);
 }
 .posts {
-  height: 100vh;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .container {
