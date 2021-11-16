@@ -89,7 +89,7 @@ const generateTextArea = () => {
   const html =`
   <div class="textContent">
   <p class="posts">Click on one of our users to see their content!</p>
-  <div>
+  </div>
   `
   container.insertAdjacentHTML('beforeend', html);
 }

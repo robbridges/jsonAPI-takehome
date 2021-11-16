@@ -1,13 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(to right bottom, rgba(165, 9, 238, 0.918), #28b485);
+}
+.posts {
+  height: 100vh;
+}
+
+.container {
+  width:100%;
+ 
+}
+
 .content {
   margin-top: 3.5%;
   margin-bottom: 5%;
   display: flex;
   height: 90vh;
+  
 }
 
-table,th,td {
-  border: 1px solid black;
-}
+
 .header {
   position: fixed;
   left: 0;
@@ -47,6 +63,7 @@ table,th,td {
   margin-top: 3.5%;
   
 }
+
 .tableContainer {
   width: 200px;
   
@@ -54,6 +71,9 @@ table,th,td {
 .textContent {
   flex: 1;
   
+}
+.user-button {
+  background-color: rgba(165, 9, 238, 0.918);
 }
 .user-button:hover {
   font-style: italic;
